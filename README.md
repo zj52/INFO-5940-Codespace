@@ -39,7 +39,6 @@ Codespaces is not free, but their per-month [free quota](https://docs.github.com
 
 
 ### Class Activity Materials
-1. [combined_transcript.txt](https://github.com/user-attachments/files/22279085/combined_transcript.txt)
-2. One-time use OpenAI API key: OPENAI_API_KEY=sk-4SsZRUtTdKZITdRrpGTmlw
+* One-time use OpenAI API key: OPENAI_API_KEY=sk-4SsZRUtTdKZITdRrpGTmlw
 OPENAI_BASE_URL=https://api.ai.it.cornell.edu/
 
