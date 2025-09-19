@@ -1,0 +1,25 @@
+### Overview
+In this lecture of INFO 5940 at Cornell, various topics surrounding Artificial Intelligence (AI) were discussed. The class began with student experiences related to AI applications, specifically focusing on tools like ChatGPT and Gemini. Discussions included the implications of AI in design, job searching, and the inner critic phenomena. The lecturer emphasized the importance of understanding AI technology's potential and its associated challenges, particularly in the context of developing apps using AI models. A segment was dedicated to demonstrating the OpenAI SDK, discussing its functionalities, and explaining how API usage differs from general AI models like ChatGPT.
+
+### Actions
+1. Share experiences with AI applications, including successes and challenges.
+2. Familiarize yourself with Gemini, ChatGPT, and the implications of AI in your personal and professional life.
+3. Ensure participation in upcoming Zoom sessions and prepare for the development environment workshop.
+4. Engage in discussions on AI ethics and security, particularly around email searching and facial recognition technologies.
+5. Review the OpenAI SDK and familiarize yourself with its response APIs and how to effectively implement them in future assignments.
+
+### Detailed Notes
+- **Class starter**: The class began with a discussion inviting students to share experiences regarding AI usage in tasks or projects. 
+- **Inner critic discussion**: The concept of the inner critic was introduced, characterized as a negative internal voice. A student shared an anecdote involving Gemini, which humorously expressed self-loathing after a programming error, known as an example of the inner critic in action.
+- **AI in design**: A student recounted their experience using ChatGPT to create a graphic design for a hotel executive, highlighting AI's role in facilitating tasks outside their skill set (color choices, design feedback).
+- **AI email search**: Another student shared a seemingly successful instance of using ChatGPT's deep research mode to find email addresses of professionals on LinkedIn, raising questions about data accuracy and implications for privacy.
+- **Security concerns**: The potential misuse of generated images and email findings was discussed, highlighting risks such as identity theft and fraudulent activities.
+- **Introduction to NanoBanana**: The lecture introduced NanoBanana, Gemini's new image generation model, and compared it to existing models in terms of quality. Students were encouraged to experiment with it.
+- **Implications of AI advancements**: The lecturer prompted a discussion on the implications of improved AI tools in various domains, including design and security. Concerns were raised about using AI technologies for deceptive practices.
+- **Upcoming sessions**: Details were provided regarding two important upcoming sessions—one on Zoom led by the lecturer while traveling and the second focusing on developing technical environments facilitated by RTAs.
+- **OpenAI SDK introduction**: The lecturer walked through the OpenAI SDK, explaining the differences between APIs and how to utilize them. Notation for model interactions, temperature settings, and response handling was provided.
+- **API calls**: Differences were highlighted between the chat completion API and the new responses API, including how context is managed for each session and the limitations of storing and recalling conversations.
+- **Billing strategy**: Discussion on the cost implications of using AI models (the difference in input vs. output tokens) and why pricing structures exist based on computational demand.
+- **Final thoughts**: Curiosity was expressed regarding AI’s environmental impact, shifting focus towards how models are operated and the efficiency of AI computations across varying token sizes.
+
+This structure helps make the detailed information more digestible and provides a comprehensive overview of the session's key takeaways, allowing students who missed the class to grasp essential concepts covered during the lecture.
