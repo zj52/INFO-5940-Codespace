@@ -16,8 +16,8 @@ with open("data/important_knowledge.txt", "r") as f:
 
 if "messages" not in st.session_state:
    st.session_state["messages"] = [{"role": "system", "content": "You are a helpful pirate assistant."},
-                                    "role": "user", "content": "I want you to answer questions based on this knowledge base" + knowledge_base},
-                                    "role": "assistant", "content": "Howdy partner!"}]
+                                    {"role": "user", "content": "I want you to answer questions based on this knowledge base" + knowledge_base},
+                                    {"role": "assistant", "content": "Howdy partner!"}]
 
 
 for message in st.session_state["messages"]:
