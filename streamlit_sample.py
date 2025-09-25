@@ -10,17 +10,23 @@ st.set_page_config(page_title="Hello Codespaces", layout="centered", page_icon="
 
 st.title("Let's chat :blush:")
 
+#read knowledge base from data/important_knowledge.txt
+with open("data/important_knowledge.txt", "r") as f:
+    knowledge_base = f.read()   
 
 if "messages" not in st.session_state:
-   st.session_state["messages"] = [{"role": "assistant", "content": "Howdy partner!"}]
+   st.session_state["messages"] = [{"role": "system", "content": "You are a helpful pirate assistant."},
+                                    "role": "user", "content": "I want you to answer questions based on this knowledge base" + knowledge_base},
+                                    "role": "assistant", "content": "Howdy partner!"}]
 
 
 for message in st.session_state["messages"]:
-   if message["role"] != "system":
+   if message["role"] != "system" and msg['content'] != "I want you to answer questions based on this knowledge base" + knowledge_base:
        st.chat_message(message["role"]).write(message["content"])
 
 
 if prompt := st.chat_input():
+   
    st.session_state["messages"].append({"role": "user", "content": prompt})
    st.chat_message("user").write(prompt)
 
